@@ -1,38 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100%;
+  height: 100%;
   min-height: 100vh;
+  background-color: rgb(199 184 201);
+
+}
+.header {
+  width: 100%;
+  height: 25vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.headerDiv {
+  width: 42%;
+  background: #fff;
+  border-radius: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search_Icon {
+  position: relative;
+  top: 12px;
+  right: -10px;
+  color: #8b8585;
+  font-size: 22px !important;
+}
+.inputField {
+  width: 95%;
+  height: 45px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  border: none;
+  font-weight: 600;
+  float: right;
+  outline: none;
+}
+.card {
+  width: 285px;
+  background: beige;
+  height: 300px;
+  margin: 25px;
+  border-radius: 10px;
+  border-radius: 10px;
+  background: #e9d0e8;
+  box-shadow: rgb(0 0 0 / 23%) -1px 8px 8px 0px;
+}
+.card:hover{
+  box-shadow: rgb(0 0 0 / 23%) 1px 1px 8px 0px;
+  cursor: pointer;
+}
+.imgDiv {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  margin-top: 10px;
+}
+.profileImg {
+  width: 67%;
+    height: 94%;
+    border-radius: 136px;
+}
+.contener {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.closeIcon {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  cursor: pointer;
 }

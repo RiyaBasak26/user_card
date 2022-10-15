@@ -1,0 +1,13 @@
+.uderDetailDiv{
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.label
+{
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 5px;
+}
